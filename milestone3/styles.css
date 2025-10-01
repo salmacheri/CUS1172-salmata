@@ -1,0 +1,36 @@
+ul {
+    list-style: none;   /* remove default bullets */
+    padding: 0;
+  }
+  
+  ul li {
+    position: relative;
+    padding-left: 1.5em; /* space for the flower */
+  }
+  
+  ul li::before {
+    content: "\1F338";  /* Unicode for 🌸 */
+  margin-right: 0.5em;
+  }
+
+  nav {
+    text-align: left;
+    margin-left: 20px;
+    margin: 10px;
+
+  }
+
+  body {
+    margin-left: 220px; 
+    text-align: center;
+  }
+
+  .img-box {
+    width: 300px;   /* fixed width */
+    height: 400px;  /* fixed height */
+    object-fit: cover; /* ensures image fills box without distortion */
+    border-radius: 10px;
+  }
+
+
+  
